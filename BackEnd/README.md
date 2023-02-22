@@ -128,14 +128,17 @@ OBS: caso a migração esteja errada, para desfazela é necessário usar o coman
 23. Adicionar o middleware nas rotas sensíveis
     *   ![Passo23](https://user-images.githubusercontent.com/107328582/220774437-86514185-0925-46ba-901c-44b5969902a9.png)
 
+24. Adicionar todas as rotas no app.ts
+    *   ![Passo24](https://user-images.githubusercontent.com/107328582/220779130-11c7f10b-04d4-4b1a-9c99-3bcec77b5e90.png)
 
-24. Criar e configurar uma seed para criar usuarios na base de dados com `npx sequelize seed:generate --name criar-usuarios`
-    *   ![Passo23](https://user-images.githubusercontent.com/107328582/220775716-980723bc-4079-4a47-a371-64719506e072.png)
-    *   ![Passo24_2](https://user-images.githubusercontent.com/107328582/220776610-a7eda5bc-1763-419a-b8f7-4f29ebe669d2.png)
 
-25. Executar a seed com `npx sequelize db:seed:all`
-    *   ![Passo25](https://user-images.githubusercontent.com/107328582/220777149-e486a533-ea7e-4572-86ed-ee8f166ca0d7.png)
-    *   ![Passo25_2](https://user-images.githubusercontent.com/107328582/220777161-45956f04-9133-48b8-9c5c-fde6349c4cdb.png)
+25. Criar e configurar uma seed para criar usuarios na base de dados com `npx sequelize seed:generate --name criar-usuarios`
+    *   ![Passo25](https://user-images.githubusercontent.com/107328582/220775716-980723bc-4079-4a47-a371-64719506e072.png)
+    *   ![Passo25_2](https://user-images.githubusercontent.com/107328582/220776610-a7eda5bc-1763-419a-b8f7-4f29ebe669d2.png)
+
+26. Executar a seed com `npx sequelize db:seed:all`
+    *   ![Passo26](https://user-images.githubusercontent.com/107328582/220777149-e486a533-ea7e-4572-86ed-ee8f166ca0d7.png)
+    *   ![Passo26_2](https://user-images.githubusercontent.com/107328582/220777161-45956f04-9133-48b8-9c5c-fde6349c4cdb.png)
 
 
 
