@@ -107,7 +107,10 @@ OBS: caso a migração esteja errada, para desfazela é necessário usar o coman
             *   ![Passo19_6](https://user-images.githubusercontent.com/107328582/220771303-d9719450-f70b-4f8a-ac08-d413f25d0e49.png)
         *   ![Passo19_7](https://user-images.githubusercontent.com/107328582/220772083-e617ff61-7cd0-49d8-b2eb-fd374a8760bb.png)
         *   ![Passo19_7_2](https://user-images.githubusercontent.com/107328582/220772092-1e9e4c9e-5932-4ba9-bc18-5116e83579f2.png)
-    ![Passo19_8](https://user-images.githubusercontent.com/107328582/220772386-1c9c297e-e8b8-4421-b852-d27013111319.png)
+        ![Passo19_8](https://user-images.githubusercontent.com/107328582/220772386-1c9c297e-e8b8-4421-b852-d27013111319.png)
+        *   Configurar o server.ts
+        ![Passo19_9](https://user-images.githubusercontent.com/107328582/220778029-0e1f68e3-f4a8-40ce-b2c7-d5899124a169.png)
+
 
 20. Instalar o JWT na aplicação com `npm i jsonwebtoken` e `npm i --save-dev @types/jsonwebtoken`
     *   ![Passo20](https://user-images.githubusercontent.com/107328582/220773079-1ed54815-25f0-4e7f-beea-a3e229dd0452.png)
