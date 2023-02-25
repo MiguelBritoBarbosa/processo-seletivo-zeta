@@ -1,0 +1,59 @@
+#contato {
+    background-color: #34353a;
+}
+
+
+#form-container{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: .5px 10px 15px rgba(0,0,0, .2);
+    margin: 25px auto;
+    padding: 25px;
+}
+
+
+#form-container input[type=checkbox]:checked{
+    background-color: #03a9f4;
+    border-color: #03a9f4;
+}
+#form-container input[type=checkbox]{
+    border-color: #03a9f4;
+}
+#form-container input[type=checkbox]:focus{
+    box-shadow: 0 0 0 0.25rem rgba(3, 169, 244, 0.445);
+}
+
+
+#form-container h2{
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+#form-container a{
+    color: #222;
+    transition: .5s;
+}
+
+#form-container a:hover{
+    color: #03a9f4;
+}
+
+#form-container form{
+    padding-bottom: 0;
+}
+
+#form-container .form-control{
+    border: none;
+    border-bottom: 1px solid #03a9f4;
+    border-radius: 0;
+    color: white;
+}
+
+#form-container .form-control:focus{
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0 0.25rem rgba(3, 169, 244, 0.445);
+}
+
+#form-container .form-floating label{
+    color: #03a9f4;
+}

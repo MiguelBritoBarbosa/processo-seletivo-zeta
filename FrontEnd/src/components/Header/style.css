@@ -1,0 +1,100 @@
+#header {
+    background-image: url("../../../public/background-imageHeader.jpg");
+    background-position: 0px;
+    color: white;
+    background-size: cover;
+    height: 10em;
+
+}
+
+.text-shadow {
+    text-shadow: 1px 1px, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+
+/* lineup class and keyframes */
+.text-transition-header {
+
+    animation: 2s anim-lineUp ease-out;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateX(-80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+}
+
+
+
+.content {
+    position: relative;
+  }
+
+  .content h1 {
+    position: absolute;
+  }
+
+  .content h1:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px #03a9f4;
+  }
+
+  .content h1:nth-child(2) {
+    color: #03a9f4;
+    animation: animate 4s ease-in-out infinite;
+  }
+
+  @keyframes animate {
+    0%,
+    100% {
+      clip-path: polygon(
+        0% 45%,
+        16% 44%,
+        33% 50%,
+        54% 60%,
+        70% 61%,
+        84% 59%,
+        100% 52%,
+        100% 100%,
+        0% 100%
+      );
+    }
+
+    50% {
+      clip-path: polygon(
+        0% 60%,
+        15% 65%,
+        34% 66%,
+        51% 62%,
+        67% 50%,
+        84% 45%,
+        100% 46%,
+        100% 100%,
+        0% 100%
+      );
+    }
+  }
+
+
+.form-control {
+    background-color: #212529;
+}
+.form-control:focus {
+    background-color: #212529;
+
+}
+
+.form-floating label {
+    color: #03a9f4;
+}

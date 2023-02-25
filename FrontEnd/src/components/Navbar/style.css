@@ -1,0 +1,26 @@
+.nav-tabs {
+    background-color: black;
+}
+
+/* lineup class and keyframes */
+.text-transition-navbar {
+
+    animation: 3s anim-lineUp ease-out;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateX(-80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+}
