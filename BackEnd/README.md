@@ -183,5 +183,5 @@ OBS: caso a migração esteja errada, para desfazela é necessário usar o coman
 >   https://medium.com/@williamphilippe/como-usar-o-sequelize-com-postgresql-em-typescript-6cec17a101f8
 >
 >   https://douglinhas-ops.medium.com/incluir-jwt-nas-suas-aplicações-nodejs-com-typescript-442ca718b60f
-
+>   https://lucassr.medium.com/insomnia-um-poderoso-testador-de-rotas-3d77d2cd8e89#:~:text=Para%20fazer%20a%20importação%2Fexportação,no%20local%20que%20você%20escolheu.
 
