@@ -148,7 +148,7 @@ OBS: caso a migração esteja errada, para desfazela é necessário usar o coman
 #### Para testar a API, tenha o Insomnia (https://insomnia.rest) instalado 
 1.  Com o Insomnia baixado, clique no botão abaixo e depois clique em RUN
 
-     <a href="https://insomnia.rest/run/?label=API%20Rest%20Typescript&uri=https%3A%2F%2Fraw.githubusercontent.com%2FMiguelBritoBarbosa%2Fprocesso-seletivo-zeta%2Fmain%2FBackEnd%2FInsomnia.json%3Ftoken%3DGHSAT0AAAAAAB5IIOREW5PVBG7I3FWE5H2OY74DCXA" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+     [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=API%20Rest%20Typescript&uri=https%3A%2F%2Fraw.githubusercontent.com%2FMiguelBritoBarbosa%2Fprocesso-seletivo-zeta%2Fmain%2FBackEnd%2FInsomnia.json%3Ftoken%3DGHSAT0AAAAAAB5IIOREK2VKMYS4KMPGFKS4Y745DRA)
     
     OBS: Caso não tenha o insomnia clique em donwload logo abaixo de RUN
     ![1](https://user-images.githubusercontent.com/107328582/221428936-82f238a1-e9d9-4d5e-b5d3-db02ee1cf3cd.png)
