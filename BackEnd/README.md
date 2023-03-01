@@ -145,6 +145,11 @@ OBS: caso a migração esteja errada, para desfazela é necessário usar o coman
     
 ### Teste
 
+#### Teste a API pelo site, é uma opção mais rápida e funcional
+Link para o site: http://35.198.60.120/tests-api
+
+
+
 #### Para testar a API, tenha o Insomnia (https://insomnia.rest) instalado 
 1.  Com o Insomnia baixado, clique no botão abaixo e depois clique em RUN
 
@@ -166,6 +171,9 @@ OBS: caso a migração esteja errada, para desfazela é necessário usar o coman
     *   Adicione o token adquirido nos headers da rota
         ![5](https://user-images.githubusercontent.com/107328582/221434255-f28b6e4f-0341-4afc-a793-38af5f39d801.png)
     ![5_1](https://user-images.githubusercontent.com/107328582/221434329-91b5f09a-609b-479e-8361-14c08172cc45.png)
+
+#### caso o botão do insomnia não esteja funcionando, peço perdão, e peço para que testem pelo site da aplicação, linkado acima
+
 
 #### Link para consumir a API http://35.198.60.120/api/ [users, token]
     
