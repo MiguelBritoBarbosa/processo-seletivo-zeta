@@ -3,7 +3,7 @@
 class HomeController {
     index(req: any, res: any): void {
         res.json({
-            tudoCerto: true,
+            Home: 'online',
         });
     }
 }

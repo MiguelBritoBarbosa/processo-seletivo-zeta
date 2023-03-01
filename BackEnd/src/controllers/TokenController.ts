@@ -7,9 +7,9 @@ import { authenticator } from '../config/authenticator';
 class TokenController {
     // Função para fazer Login do usuário, gerando um código de autenticação JWT
     async store(req: any, res: any) {
-        const { email = '', senha = '' } = req.body;
-        console.log(email, senha);
-        if (!email || !senha) {
+        const { email = '', password = '' } = req.body;
+        console.log(email, password);
+        if (!email || !password) {
             return res.status(401).json({
                 errors: ['Email ou senha inválidos!'],
             });
@@ -23,7 +23,7 @@ class TokenController {
             });
         }
 
-        if (!(await user.passwordIsValid(senha))) {
+        if (!(await user.passwordIsValid(password))) {
             return res.json({
                 errors: ['Senha inválida!'],
             });

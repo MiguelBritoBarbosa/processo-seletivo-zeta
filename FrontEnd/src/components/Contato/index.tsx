@@ -41,8 +41,8 @@ export const Contato = () => {
                             <button className="btn btn-primary" type="button" onClick={formValidate}>Enviar</button>
                         </div>
                     </div>
-                    <div className="col-6">
-                        <img className="img-fluid" src="../../../public/undraw_forms_re_pkrt.svg" alt="" />
+                    <div className="col-6">            {/*// ../../../public/undraw_forms_re_pkrt.svg*/}
+                        <img className="img-fluid" src="undraw_forms_re_pkrt.svg" alt="" />
                     </div>
                 </div>
 

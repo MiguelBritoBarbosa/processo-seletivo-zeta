@@ -26,7 +26,7 @@ User.init(
             validate: {
                 len: {
                     args: [3, 255],
-                    msg: 'Este Campo precisa ter no mínimo 3 caracteres!',
+                    msg: 'O campo Nome precisa ter no mínimo 3 caracteres!',
                 },
             },
         },
@@ -53,7 +53,7 @@ User.init(
             validate: {
                 len: {
                     args: [6, 255],
-                    msg: 'Este Campo precisa ter no mínimo 6 caracteres!',
+                    msg: 'O campo Senha precisa ter no mínimo 6 caracteres!',
                 },
             },
         },

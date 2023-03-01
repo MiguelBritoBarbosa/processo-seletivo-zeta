@@ -30,7 +30,7 @@ export const Footer = () => {
                         <p className="footer-texts"><i className="bi bi-telephone"></i> (xx) xxxxx-xxxx</p>
                         <p className="footer-texts"><i className="bi bi-envelope-at"></i> compressorinteligente@gmail.com</p>
                     </div>
-                    <div className="col-12 col-md-4 footer-column mb-5 mb-sm-3 mb-md-2">
+                    <div className="col-12 col-md-4 footer-column">
                         <h3>Informações</h3>
                         <ul className="list-unstyled">
                             <li className="mb-2">

@@ -27,6 +27,9 @@ export const Navbar = () => {
                         <li className="nav-item">
                             <a href="#contato" className="nav-link active">Contato</a>
                         </li>
+                        <li className="nav-item">
+                            <a href="/tests-api" className="nav-link active">API Tests</a>
+                        </li>
                     </ul>
                 </div>
             </div>

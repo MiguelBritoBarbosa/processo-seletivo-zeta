@@ -142,33 +142,11 @@ OBS: caso a migração esteja errada, para desfazela é necessário usar o coman
 
 
 
-    
+
 ### Teste
+    Em andamento...
 
-#### Para testar a API, tenha o Insomnia (https://insomnia.rest) instalado 
-1.  Com o Insomnia baixado, clique no botão abaixo e depois clique em RUN
 
-     [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=API%20Rest%20Typescript&uri=https%3A%2F%2Fraw.githubusercontent.com%2FMiguelBritoBarbosa%2Fprocesso-seletivo-zeta%2Fmain%2FBackEnd%2FInsomnia.json%3Ftoken%3DGHSAT0AAAAAAB5IIOREK2VKMYS4KMPGFKS4Y745DRA)
-    
-    OBS: Caso não tenha o insomnia clique em donwload logo abaixo de RUN
-    ![1](https://user-images.githubusercontent.com/107328582/221428936-82f238a1-e9d9-4d5e-b5d3-db02ee1cf3cd.png)
-
-2.  Ao abrir o insomnia aceite a importação 
-    ![2](https://user-images.githubusercontent.com/107328582/221429250-adac3548-6793-4b60-b60a-8a0ea12bc8ed.png)
-    
-3.  Abra as rotas e faça os testes
-    ![3](https://user-images.githubusercontent.com/107328582/221429323-ed8a671d-754b-4d7b-8d63-6f085d66b2ee.png)
-
-4.  Teste o login pela rota Token
-    ![4](https://user-images.githubusercontent.com/107328582/221429377-c6d38e6f-934e-4946-a2e0-712d2aed7673.png)
-
-5.  Com o token em mão teste exlcuir um usuário
-    *   Adicione o token adquirido nos headers da rota
-        ![5](https://user-images.githubusercontent.com/107328582/221434255-f28b6e4f-0341-4afc-a793-38af5f39d801.png)
-    ![5_1](https://user-images.githubusercontent.com/107328582/221434329-91b5f09a-609b-479e-8361-14c08172cc45.png)
-
-#### Link para consumir a API http://35.198.60.120/api/ [users, token]
-    
 ### Referências Bibliográficas
 >   https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/
 >    
@@ -183,5 +161,5 @@ OBS: caso a migração esteja errada, para desfazela é necessário usar o coman
 >   https://medium.com/@williamphilippe/como-usar-o-sequelize-com-postgresql-em-typescript-6cec17a101f8
 >
 >   https://douglinhas-ops.medium.com/incluir-jwt-nas-suas-aplicações-nodejs-com-typescript-442ca718b60f
->   https://lucassr.medium.com/insomnia-um-poderoso-testador-de-rotas-3d77d2cd8e89#:~:text=Para%20fazer%20a%20importação%2Fexportação,no%20local%20que%20você%20escolheu.
+
 
