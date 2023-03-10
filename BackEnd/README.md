@@ -175,7 +175,7 @@ Link para o site: http://35.198.60.120/tests-api
 #### caso o botão do insomnia não esteja funcionando, peço perdão, e peço para que testem pelo site da aplicação, linkado acima
 
 
-#### Link para consumir a API http://35.198.60.120/api/ [users, token]
+#### Link para consumir a API http://35.198.60.120:81/api/ [users, token]
     
 ### Referências Bibliográficas
 >   https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/
